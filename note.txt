@@ -1,0 +1,5 @@
+1. Install ROS melodic
+2. Install git
+-> sudo apt install git
+3. Copy boost to the usr/local/include
+4. Write the quadrotor_plugins.gazebo.xacro 
