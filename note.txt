@@ -3,3 +3,5 @@
 -> sudo apt install git
 3. Copy boost to the usr/local/include
 4. Write the quadrotor_plugins.gazebo.xacro 
+5. Add the grass:
+In the gazebo_world_materials, copy the "my_ground_plane" to ~/.gazebo/models folder.
