@@ -23,6 +23,8 @@ pip3 install rospkg
 8. Where is the python package go?
 /opt/ros/melodic/lib/python2.7/dist-packages/
 /usr/local/lib/python3.6/dist-packages/
+.local/lib/python2.7/site-packages
+.local/lib/python3.6/site-packages
 
 9. ModuleNotFoundError: No module named 'defusedxml'?
 pip install defusedxml
