@@ -16,6 +16,7 @@ show all the version.
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7  1
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6  2
 set the priority of different versions.
+$ sudo update-alternatives --config python
 
 7. No rospy/rospkg packages when using python3
 pip3 install rospkg
