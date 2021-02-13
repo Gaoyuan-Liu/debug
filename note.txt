@@ -32,4 +32,7 @@ pip install defusedxml
 or
 sudo apt-get install python-defusedxml
 
+10. Original zbook's name:
+liu-HP-ZBook-Fury-15-G7-Mobile-Workstation
+
 
