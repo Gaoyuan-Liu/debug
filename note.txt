@@ -35,4 +35,9 @@ sudo apt-get install python-defusedxml
 10. Original zbook's name:
 liu-HP-ZBook-Fury-15-G7-Mobile-Workstation
 
+11. Cannot find boost:
+boost is in "/usr/include", but Cmake try to find boost in "/usr/local/include"
+Go there and copy it to:
+sudo cp -r boost /usr/local/include
+
 
