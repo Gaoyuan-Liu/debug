@@ -40,4 +40,11 @@ boost is in "/usr/include", but Cmake try to find boost in "/usr/local/include"
 Go there and copy it to:
 sudo cp -r boost /usr/local/include
 
-
+12. Connect to VUBnext wifi:
+Security: WAP & WAP2 Enterprise
+Authentication: Protected EAP (PEAP)
+Anonymous identity: 
+PEAP version: Automatic
+Inner authentication: MSCHAPv2
+Username: gaoyliu
+Password: Liu_1994
