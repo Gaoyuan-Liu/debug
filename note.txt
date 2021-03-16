@@ -48,3 +48,6 @@ PEAP version: Automatic
 Inner authentication: MSCHAPv2
 Username: gaoyliu
 Password: Liu_1994
+
+13. How to build a virtual environment:
+'virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>'
