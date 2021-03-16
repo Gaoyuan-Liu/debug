@@ -1,6 +1,5 @@
 # Debug
 A note of debug work
-
 ##1. Install ROS melodic
 
 ##2. Install git
