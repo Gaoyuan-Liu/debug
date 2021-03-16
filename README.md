@@ -76,3 +76,7 @@ source venv3.8/bin/activate
 ```
 deactivate
 ```
+## ROS controller
+```
+sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
+```
