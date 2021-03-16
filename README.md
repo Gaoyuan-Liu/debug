@@ -70,3 +70,9 @@ $ sudo cp -r boost /usr/local/include
 ```
 $ virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>'
 ```
+```
+source venv3.8/bin/activate
+```
+```
+deactivate
+```
