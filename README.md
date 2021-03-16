@@ -14,15 +14,25 @@ A note of debug work
 In the gazebo_world_materials, copy the "my_ground_plane" to ~/.gazebo/models folder.
 
 ## 6. Change the default python version:
-```$ update-alternatives --list python```
+```
+$ update-alternatives --list python
+```
 show all the version.
-```$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7  1```
-```$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6  2```
+```
+$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7  1
+```
+```
+$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6  2
+```
 set the priority of different versions.
-```$ sudo update-alternatives --config python```
+```
+$ sudo update-alternatives --config python
+```
 
 ## 7. No rospy/rospkg packages when using python3
-```$ pip3 install rospkg```
+```
+$ pip3 install rospkg
+```
 
 ## 8. Where is the python package go?
 /opt/ros/melodic/lib/python2.7/dist-packages/
@@ -48,13 +58,13 @@ Go there and copy it to:
 $ sudo cp -r boost /usr/local/include
 ```
 ## 12. Connect to VUBnext wifi:
-Security: WAP & WAP2 Enterprise
-Authentication: Protected EAP (PEAP)
-Anonymous identity: 
-PEAP version: Automatic
-Inner authentication: MSCHAPv2
-Username: gaoyliu
-Password: Liu_1994
+* Security: WAP & WAP2 Enterprise
+* Authentication: Protected EAP (PEAP)
+* Anonymous identity: 
+* PEAP version: Automatic
+* Inner authentication: MSCHAPv2
+* Username: gaoyliu
+* Password: Liu_1994
 
 ## 13. How to build a virtual environment:
 ```
