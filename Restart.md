@@ -13,3 +13,7 @@ Solution:
 ```
 sudo apt install python3-catkin-tools python3-osrf-pycommon
 ```
+### 4. ROS control
+```
+sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
+```
