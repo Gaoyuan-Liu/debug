@@ -1,3 +1,4 @@
+## Basic software
 ### 1. Downlaod Chrome
 Download GDebi first 
 ### 2. Download ROS-Noetic
@@ -13,6 +14,7 @@ Solution:
 ```
 sudo apt install python3-catkin-tools python3-osrf-pycommon
 ```
+## For panda_rl
 ### 4. ROS control
 ```
 sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
