@@ -1,7 +1,7 @@
-#### Downlaod Chrome
+### 1. Downlaod Chrome
 Download GDebi first 
-#### Download ROS-Noetic
-#### Download moveit
+### 2. Download ROS-Noetic
+### 3. Download moveit
 When run 
 ```
 catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release*
