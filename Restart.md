@@ -19,3 +19,6 @@ sudo apt install python3-catkin-tools python3-osrf-pycommon
 ```
 sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
 ```
+```
+sudo apt-get install ros-noetic-octomap ros-noetic-octomap-mapping ros-noetic-octomap-msgs ros-noetic-octomap-ros ros-noetic-octomap-rviz-plugins ros-noetic-octomap-server
+```
