@@ -14,6 +14,8 @@ Solution:
 ```
 sudo apt install python3-catkin-tools python3-osrf-pycommon
 ```
+### 4. Add SSH key for github connection
+Follow instruction: [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh]
 ## For panda_rl
 ### 4. ROS control
 ```
