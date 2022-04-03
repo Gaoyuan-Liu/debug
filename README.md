@@ -80,3 +80,9 @@ deactivate
 ```
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 ```
+## 15. Python3 catkin build error
+Unable to find either executable 'empy' or Python module 'em'...  try installing the package 'python-empy'
+```
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+```
+
