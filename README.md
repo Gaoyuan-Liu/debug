@@ -85,4 +85,8 @@ Unable to find either executable 'empy' or Python module 'em'...  try installing
 ```
 catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
+## 16. Conda and rospkg conflict
+```
+conda install -c conda-forge rospkg
+```
 
