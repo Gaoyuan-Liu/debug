@@ -57,7 +57,6 @@ How to complie franka in personal laptop.
 For advanced usage, for example, replanning functions, the trajectory controller will not be valid anymore, we instead use joint position controllers for directly controlling each joint.
 * Add contorller parameters in the 'default_controllers.yaml':
   ```
-  # Position Controllers ---------------------------------------
 joint1_position_controller:
   type: effort_controllers/JointPositionController
   joint: panda_joint1
