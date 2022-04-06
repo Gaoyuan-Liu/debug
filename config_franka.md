@@ -92,3 +92,6 @@ For advanced usage, for example, replanning functions, the trajectory controller
     joint: panda_joint7
     pid: { p: 50, d: 5, i: 0 }
   ```
+  Worth to notice here that only the 'effort_controllers' works, the 'position_controllers' hardware will cause cartesian_reflex error since no resonable PID parameter can be specified.
+  
+* Send joint angle conmmand to the topic.
