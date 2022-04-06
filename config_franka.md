@@ -57,38 +57,38 @@ How to complie franka in personal laptop.
 For advanced usage, for example, replanning functions, the trajectory controller will not be valid anymore, we instead use joint position controllers for directly controlling each joint.
 * Add contorller parameters in the 'default_controllers.yaml':
   ```
-joint1_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint1
-  pid: { p: 600, d: 30, i: 0 }
+  joint1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint1
+    pid: { p: 600, d: 30, i: 0 }
 
-joint2_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint2
-  pid: { p: 600, d: 30, i: 0 }
+  joint2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint2
+    pid: { p: 600, d: 30, i: 0 }
 
-joint3_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint3
-  pid: { p: 600, d: 30, i: 0 }
+  joint3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint3
+    pid: { p: 600, d: 30, i: 0 }
 
-joint4_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint4
-  pid: { p: 600, d: 30, i: 0 }
+  joint4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint4
+    pid: { p: 600, d: 30, i: 0 }
 
-joint5_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint5
-  pid: { p: 250, d: 10, i: 0 }
+  joint5_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint5
+    pid: { p: 250, d: 10, i: 0 }
 
-joint6_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint6
-  pid: { p: 150, d: 10, i: 0 }
+  joint6_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint6
+    pid: { p: 150, d: 10, i: 0 }
 
-joint7_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: panda_joint7
-  pid: { p: 50, d: 5, i: 0 }
+  joint7_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: panda_joint7
+    pid: { p: 50, d: 5, i: 0 }
   ```
