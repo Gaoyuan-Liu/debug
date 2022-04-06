@@ -3,7 +3,7 @@ How to complie franka in personal laptop.
 
 ### Check Compatible Versions 
 * Check the franka system version on Desk
-  The system version of panda3 is 4.2.0
+The system version of panda3 is 4.2.0
 
 * Check the compatible version/branch of libpanda
 [libfranka change log](https://frankaemika.github.io/docs/libfranka_changelog.html).
