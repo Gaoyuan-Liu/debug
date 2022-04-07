@@ -1,6 +1,11 @@
 # config_franka
 How to complie franka in personal laptop.
-
+### Ethernet Connection
+* Find the wired connection setting, and set the IPv4:
+  Address: 192.168.2.1
+  Netmask: 255.255.255.0
+ 
+* Open browser and reach franka controller with ip 192.168.2.105
 ### Check Compatible Versions 
 * Check the franka system version on Desk
 
