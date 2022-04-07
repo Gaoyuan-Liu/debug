@@ -107,3 +107,9 @@ For advanced usage, for example, replanning functions, the trajectory controller
   Worth to notice here that only the 'effort_controllers' works, the 'position_controllers' hardware will cause cartesian_reflex error since no resonable PID parameter can be specified.
   
 * Send joint angle conmmand to the topic.
+
+### Trouble Shooting
+* Recover from "cartesian_reflex" error:
+  ```
+  rostopic pub -1 /franka_control/error_recovery/goal franka_msgs/ErrorRecoveryActionGoal "{}"
+  ```
