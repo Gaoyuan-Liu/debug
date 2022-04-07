@@ -11,11 +11,11 @@ How to complie franka in personal laptop.
 ### Check Compatible Versions 
 * Check the franka system version on Desk
   
-  | robot | Server Version  | libfranka | franka_ros |
-  | :---: | :-------------: | :-------: | :--------: |
-  | Panda-1 | 3.0.2 | 0.7.1 | 0.7.1|
-  | Panda-2 | 4.0.4 | 0.8.0 | 0.8.2|
-  | Panda-3 | 4.2.0 | 0.8.0 | 0.8.2|
+  | robot | Server Version  | libfranka | franka_ros | Ubuntu | ROS |
+  | :---: | :-------------: | :-------: | :--------: | :----: | :-: |
+  | Panda-1 | 3.0.2 | 0.7.1 | 0.7.1 | Ubuntu 18.04 LTS Bionic Beaver | ROS Melodic Morenia |
+  | Panda-2 | 4.0.4 | 0.8.0 | 0.8.2 | Ubuntu 20.04 LTS Focal Fossa | ROS Noetic Ninjemys |
+  | Panda-3 | 4.2.0 | 0.8.0 | 0.8.2 | Ubuntu 20.04 LTS Focal Fossa | ROS Noetic Ninjemys |
 
 * Check the compatible version/branch of libpanda
 
