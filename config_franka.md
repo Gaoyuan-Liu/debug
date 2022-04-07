@@ -44,6 +44,7 @@ How to complie franka in personal laptop.
   ```
   $ sudo update-grub
   ```
+* Important: if your system cannot boot with the rt kernal, you have to go to the BIOS set up and switch off the secure boot mode.
 
 ### Control Franka with Moveit
 * Install the netic version of [Moveit](https://ros-planning.github.io/moveit_tutorials/).
