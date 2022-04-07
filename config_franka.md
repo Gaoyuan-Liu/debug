@@ -10,13 +10,11 @@ How to complie franka in personal laptop.
 * Open browser and reach franka controller with ip 192.168.2.105
 ### Check Compatible Versions 
 * Check the franka system version on Desk
-
-  The system version of panda3 is 4.2.0
   
   | robot | Server Version  | libfranka | franka_ros |
   | :---: | :-------------: | :-------: | :--------: |
-  | Panda-1 | 301 | 0.8.0 | 0.8.2|
-  | Panda-2 | 4.0.0 | 0.8.0 | 0.8.2|
+  | Panda-1 | 3.0.2 | 0.7.1 | 0.7.1|
+  | Panda-2 | 4.0.4 | 0.8.0 | 0.8.2|
   | Panda-3 | 4.2.0 | 0.8.0 | 0.8.2|
 
 * Check the compatible version/branch of libpanda
