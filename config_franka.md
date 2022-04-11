@@ -53,7 +53,7 @@ How to complie franka in personal laptop.
   <node name="state_controller_spawner_1" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="position_joint_trajectory_controller"/>
   ```
   ```
-  $ roslaunch roslaunch franka_control franka_control.launch robot_ip:=192.168.2.105 arm_id:=panda
+  $ roslaunch franka_control franka_control.launch robot_ip:=192.168.2.105 arm_id:=panda
   ```
 * Change the 'demo.launch' in panda_moveit_config, switch off the fake execution:
   ```
