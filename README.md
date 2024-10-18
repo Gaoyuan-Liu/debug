@@ -89,4 +89,18 @@ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 conda install -c conda-forge rospkg
 ```
+## Xserver
+```
+sudo apt-get remove --purge xserver-xorg
+```
+```
+sudo apt-get install xserver-xorg
+```
+```
+sudo dpkg-reconfigure xserver-xorg
+```
+### Delete nvidia
+```
+sudo apt-get purge nvidia*
+```
 
