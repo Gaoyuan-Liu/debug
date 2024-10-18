@@ -76,10 +76,7 @@ source venv3.8/bin/activate
 ```
 deactivate
 ```
-## 14. ROS controller
-```
-sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
-```
+
 ## 15. Python3 catkin build error
 Unable to find either executable 'empy' or Python module 'em'...  try installing the package 'python-empy'
 ```
@@ -99,8 +96,12 @@ sudo apt-get install xserver-xorg
 ```
 sudo dpkg-reconfigure xserver-xorg
 ```
-### Delete nvidia
+## Delete nvidia
 ```
 sudo apt-get purge nvidia*
+```
+## Install nvidia driver
+```
+sudo ubuntu-drivers install
 ```
 
