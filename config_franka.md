@@ -27,7 +27,10 @@ How to complie franka in personal laptop.
   [panda_ros change log](https://frankaemika.github.io/docs/franka_ros_changelog.html).
   Here we choose franka_ros 0.8.2, compatible with ROS nortic.
 
+### Panda-4 Login
 
+* Username: franka
+* Password: franka123 
 
 ### Set Real-time Kernel
 * Follow the [instruction](https://frankaemika.github.io/docs/installation_linux.html). Don't forget to give real time permission. 
